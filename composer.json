@@ -1,0 +1,23 @@
+{
+  "name": "usuario/usuario",
+  "description": "Aplicacion Reparto",
+  "type": "project",
+  "license": "gnu/gpl",
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Clases\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "usuario",
+      "email": "usuario@correo.es"
+    }
+  ],
+  "require": {
+    "google/apiclient": "^2.0"
+  }
+}
